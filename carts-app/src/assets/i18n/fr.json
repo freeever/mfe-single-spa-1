@@ -1,0 +1,22 @@
+{
+    "carts.nav.logo.text": "Chariots",
+    "carts.nav.shopping.cart": "Panier",
+    "carts.nav.lang.en": "EN",
+    "carts.nav.lang.fr": "FR",
+
+    "carts.shopping.cart": "Panier",
+    "carts.shopping.items": "articles",
+    "carts.shopping.summary": "Résumé",
+    "carts.shopping.shipping": "EXPÉDITION",
+    "carts.shopping.give.code": "DONNER LE CODE",
+    "carts.shopping.enter.code": "entrez votre code",
+    "carts.shopping.total.price": "PRIX TOTAL",
+    "carts.shopping.back.to.shop": "Retour à la boutique",
+
+    "carts.shopping.delivery.standard": "Livraison Standard",
+    "carts.shopping.delivery.two": "Deux",
+    "carts.shopping.delivery.trhee": "Trois",
+    "carts.shopping.delivery.four": "Quatre",
+
+    "carts.shopping.btn.register": "Registre"
+}
