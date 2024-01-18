@@ -9,6 +9,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { SharedModule } from './shared/shared.module';
 import { NavModule } from './nav/nav.module';
+import { CustomTranslateLoader } from './shared/custom-translate-loader.';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,7 @@ import { NavModule } from './nav/nav.module';
     TranslateModule.forRoot({
       loader: {
         provide: TranslateLoader,
-        useFactory: HttpLoaderFactory,
+        useClass: CustomTranslateLoader,
         deps: [HttpClient]
       }
     })
