@@ -1,0 +1,10 @@
+{
+    "products.nav.logo.text": "Products",
+    "carts.nav.products": "Products",
+    "products.nav.lang.en": "EN",
+    "products.nav.lang.fr": "FR",
+
+    "products.list.search": "Search",
+    "products.list.btn.add.to.Cart": "Add to cart",
+    "products.list.price": "Price:"
+}
