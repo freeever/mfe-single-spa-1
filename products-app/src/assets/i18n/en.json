@@ -1,10 +1,19 @@
 {
     "products.nav.logo.text": "Products",
-    "carts.nav.products": "Products",
+    "products.nav.products": "Products",
+    "products.nav.home": "Home",
+    "products.nav.mfe1": "MFE1",
+    "products.nav.shopping.cart": "Shopping Cart",
     "products.nav.lang.en": "EN",
     "products.nav.lang.fr": "FR",
 
     "products.list.search": "Search",
     "products.list.btn.add.to.Cart": "Add to cart",
-    "products.list.price": "Price:"
+    "products.list.price": "Price:",
+
+    "products.dash.products": "Products",
+    "products.dash.products.dash": "Products Dashboard",
+    "products.dash.welcome": "Welcome to Products Application.",
+    "products.dash.go.to": "Go go",
+    "products.dash.product.list": "Product List"
 }

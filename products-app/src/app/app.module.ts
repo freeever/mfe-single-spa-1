@@ -10,10 +10,12 @@ import { AppComponent } from './app.component';
 import { SharedModule } from './shared/shared.module';
 import { NavModule } from './nav/nav.module';
 import { CustomTranslateLoader } from './services/core/custom-translate-loader.';
+import { DashboardComponent } from './dashboard/dashboard.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    DashboardComponent
   ],
   imports: [
     BrowserModule,

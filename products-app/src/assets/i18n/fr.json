@@ -1,10 +1,19 @@
 {
     "products.nav.logo.text": "Des produits",
     "products.nav.products": "Des produits",
+    "products.nav.home": "Maison",
+    "products.nav.mfe1": "MFE1",
+    "products.nav.shopping.cart": "Panier",
     "products.nav.lang.en": "EN",
     "products.nav.lang.fr": "FR",
 
     "products.list.search": "Recherche",
     "products.list.btn.add.to.Cart": "Ajouter au panier",
-    "products.list.btn.price": "Prix:"
+    "products.list.btn.price": "Prix:",
+
+    "products.dash.products": "Des produits",
+    "products.dash.products.dash": "Tableau de bord des produits",
+    "products.dash.welcome": "Bienvenue dans l'application Produits.",
+    "products.dash.go.to": "Aller aller",
+    "products.dash.product.list": "Liste de produits"
 }
