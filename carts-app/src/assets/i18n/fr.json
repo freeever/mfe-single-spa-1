@@ -1,6 +1,9 @@
 {
     "carts.nav.logo.text": "Chariots",
     "carts.nav.shopping.cart": "Panier",
+    "carts.nav.home": "Maison",
+    "carts.nav.mfe1": "MFE1",
+    "carts.nav.products": "Des produits",
     "carts.nav.lang.en": "EN",
     "carts.nav.lang.fr": "FR",
 
@@ -12,11 +15,14 @@
     "carts.shopping.enter.code": "entrez votre code",
     "carts.shopping.total.price": "PRIX TOTAL",
     "carts.shopping.back.to.shop": "Retour à la boutique",
-
     "carts.shopping.delivery.standard": "Livraison Standard",
     "carts.shopping.delivery.two": "Deux",
     "carts.shopping.delivery.trhee": "Trois",
     "carts.shopping.delivery.four": "Quatre",
+    "carts.shopping.btn.register": "Registre",
 
-    "carts.shopping.btn.register": "Registre"
+    "carts.dash.shopping.cart": "Panier",
+    "carts.dash.shopping.cart.dash": "Tableau de bord du panier",
+    "carts.dash.welcome": "Bienvenue sur l'application de panier d'achat.",
+    "carts.dash.go.to.my": "Allez, allez"
 }

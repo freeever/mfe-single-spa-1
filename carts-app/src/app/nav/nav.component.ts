@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
+import { navigateToUrl } from 'single-spa';
 import { LanguageService } from '../services/language.service';
 
 @Component({
@@ -17,6 +18,10 @@ export class NavComponent {
 
   showLangSwitchFor(lang: string): boolean {
     return this.translateService.currentLang !== lang;
+  }
+
+  gotoApp(url: string): void {
+    navigateToUrl(url);
   }
 
 }

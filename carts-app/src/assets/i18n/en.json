@@ -1,6 +1,9 @@
 {
     "carts.nav.logo.text": "Carts",
     "carts.nav.shopping.cart": "Shopping Cart",
+    "carts.nav.home": "Home",
+    "carts.nav.mfe1": "MFE1",
+    "carts.nav.products": "Products",
     "carts.nav.lang.en": "EN",
     "carts.nav.lang.fr": "FR",
 
@@ -12,11 +15,14 @@
     "carts.shopping.enter.code": "Enter your code",
     "carts.shopping.total.price": "TOTAL PRICE",
     "carts.shopping.back.to.shop": "Back to shop",
-
     "carts.shopping.delivery.standard": "Standard Delivery",
     "carts.shopping.delivery.two": "Two",
     "carts.shopping.delivery.trhee": "Four",
     "carts.shopping.delivery.four": "Four",
+    "carts.shopping.btn.register": "Register",
 
-    "carts.shopping.btn.register": "Register"
+    "carts.dash.shopping.cart": "Shopping Cart",
+    "carts.dash.shopping.cart.dash": "Shopping Cart Dashboard",
+    "carts.dash.welcome": "Welcome to Shopping Cart Application.",
+    "carts.dash.go.to.my": "Go go My"
 }
