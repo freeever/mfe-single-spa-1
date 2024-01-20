@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
 import { navigateToUrl } from 'single-spa';
-import { LanguageService } from '../services/language.service';
+import { LanguageService } from '../../../../mfe-shared/projects/mfe-shared-lib/src/lib/services/language.service';
 
 @Component({
   selector: 'app-nav',

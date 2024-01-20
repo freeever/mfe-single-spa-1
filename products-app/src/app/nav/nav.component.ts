@@ -1,6 +1,6 @@
+import { LanguageService } from './../../../../mfe-shared/projects/mfe-shared-lib/src/lib/services/language.service';
 import { Component } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
-import { LanguageService } from '../services/core/language.service';
 import { navigateToUrl } from 'single-spa';
 
 @Component({

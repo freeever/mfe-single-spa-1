@@ -1,7 +1,7 @@
 import { takeUntilDestroyed } from '@angular/core/rxjs-interop';
 import { TranslateService } from '@ngx-translate/core';
 import { Component, DestroyRef, OnInit, inject } from '@angular/core';
-import { LanguageService } from './services/core/language.service';
+import { LanguageService } from '../../../mfe-shared/projects/mfe-shared-lib/src/lib/services/language.service';
 
 @Component({
   selector: 'app-root',
