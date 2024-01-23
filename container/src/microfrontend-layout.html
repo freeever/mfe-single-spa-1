@@ -17,14 +17,16 @@
 
   -->
 
+  <nav>
+    <application name="mfe1"></application>
+  </nav>
+
   <main>
-    <route default>
-      <application name="mfe1"></application>
-    </route>
-    <route path="/carts-app">
+    <!-- <redirect from="/" to="/products-app"></redirect> -->
+    <route path="carts-app">
       <application name="carts-app"></application>
     </route>
-    <route path="/products-app">
+    <route default>
       <application name="products-app"></application>
     </route>
   </main>

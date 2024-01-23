@@ -1,21 +1,30 @@
-<h2>Micro Frontend app mfe1 is mounted!</h2>
-
-<nav>
-    <li>
-      <a routerLink="/">
-        Home
-      </a>
-    </li>
-    <li>
-      <a routerLink="/carts-app">
-        Shopping cart
-      </a>
-    </li>
-    <li>
-      <a routerLink="/products-app">
-        Products
-      </a>
-    </li>
-  </nav>
-
-<router-outlet></router-outlet>
+<nav class="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" [routerLink]="['/']">{{ 'mfe1.nav.logo.text' | translate }}</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarColor01">
+      <ul class="navbar-nav me-auto">
+        <li class="nav-item">
+          <a class="nav-link" (click)="gotoApp('/products-app')" style="cursor: pointer;">{{ 'mfe1.nav.products' | translate }}</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" (click)="gotoApp('/carts-app')" style="cursor: pointer;">{{ 'mfe1.nav.shopping.cart' | translate }}</a>
+        </li>
+      </ul>
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <button *ngIf="showLangSwitchFor('en')" type="button" (click)="switchLanguage('en')" class="btn btn-primary btn-lg">
+            {{ 'mfe1.nav.lang.en' | translate }}
+          </button>
+        </li>
+        <li class="nav-item">
+          <button *ngIf="showLangSwitchFor('fr')" type="button" (click)="switchLanguage('fr')" class="btn btn-primary btn-lg">
+            {{ 'mfe1.nav.lang.fr' | translate }}
+          </button>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
