@@ -1,15 +1,6 @@
-import { Observable } from 'rxjs';
-import { NetworkRequestService } from './../core/network-request.service';
 import { Injectable } from '@angular/core';
+import { Observable } from 'rxjs';
 
-@Injectable({
-  providedIn: 'root'
-})
-export class ProductService {
-
-  constructor(private networkRequestService: NetworkRequestService) { }
-
-  getProducts(): Observable<any> {
-    return this.networkRequestService.get('products');
-  }
+export abstract class ProductService {
+  abstract getProducts(): Observable<any>;
 }

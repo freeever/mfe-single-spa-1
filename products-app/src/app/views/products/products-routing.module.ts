@@ -3,8 +3,15 @@ import { RouterModule, Routes } from '@angular/router';
 
 
 import { ProductsComponent } from './products.component';
+import { ProductResolver } from './product.resolver';
 
-const routes: Routes = [{ path: '', component: ProductsComponent }];
+const routes: Routes = [{ 
+  path: '', 
+  component: ProductsComponent,
+  resolve: {
+    products: ProductResolver
+  }
+}];
 
 @NgModule({
   imports: [

@@ -3,7 +3,6 @@ import { BrowserModule } from '@angular/platform-browser';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { CommonModule } from '@angular/common';
 import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
-import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -11,6 +10,7 @@ import { SharedModule } from './shared/shared.module';
 import { NavModule } from './nav/nav.module';
 import { CustomTranslateLoader } from './services/core/custom-translate-loader.';
 import { DashboardComponent } from './dashboard/dashboard.component';
+import { ProductsModule } from './views/products/products.module';
 
 @NgModule({
   declarations: [
@@ -30,9 +30,11 @@ import { DashboardComponent } from './dashboard/dashboard.component';
         useClass: CustomTranslateLoader,
         deps: [HttpClient]
       }
-    })
+    }),
+    ProductsModule
   ],
-  providers: [],
+  providers: [
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
