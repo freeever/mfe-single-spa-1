@@ -8,7 +8,7 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "build:single-spa:products-app": "ng build products-app --configuration production",
-    "serve:single-spa:products-app": "ng s --project products-app --disable-host-check --port 4203 --live-reload false"
+    "serve:single-spa:products-app": "ng s --project products-app --disable-host-check --port 7003 --live-reload false"
   },
   "private": true,
   "dependencies": {

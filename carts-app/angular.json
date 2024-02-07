@@ -61,7 +61,7 @@
               "libraryName": "carts-app",
               "libraryTarget": "umd"
             },
-            "deployUrl": "http://localhost:4202/"
+            "deployUrl": "http://localhost:7002/"
           },
           "configurations": {
             "production": {

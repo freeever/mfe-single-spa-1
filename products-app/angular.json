@@ -36,7 +36,7 @@
               "libraryName": "products-app",
               "libraryTarget": "umd"
             },
-            "deployUrl": "http://localhost:4203/"
+            "deployUrl": "http://localhost:7003/"
           },
           "configurations": {
             "production": {

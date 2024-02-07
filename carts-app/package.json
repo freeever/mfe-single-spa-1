@@ -8,7 +8,7 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "build:single-spa:carts-app": "ng build carts-app --configuration production",
-    "serve:single-spa:carts-app": "ng s --project carts-app --disable-host-check --port 4202 --live-reload false"
+    "serve:single-spa:carts-app": "ng s --project carts-app --disable-host-check --port 7002 --live-reload false"
   },
   "private": true,
   "dependencies": {

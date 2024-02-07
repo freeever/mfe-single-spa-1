@@ -8,7 +8,7 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "build:single-spa:mfe1": "ng build mfe1 --configuration production",
-    "serve:single-spa:mfe1": "ng s --project mfe1 --disable-host-check --port 4201 --live-reload false"
+    "serve:single-spa:mfe1": "ng s --project mfe1 --disable-host-check --port 7001 --live-reload false"
   },
   "private": true,
   "dependencies": {
